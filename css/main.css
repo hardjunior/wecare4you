@@ -9,7 +9,7 @@
 ///////////////////////////////////////////////////////////
 */
 .section-video {
-  /* background: url(images/bg-cover-video-02.jpg) no-repeat center center; */
+  background: url(images/bg-cover-video-02.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,7 +67,8 @@
 
 .wrap-video-mo-01 {
   width: 854px;
-  height: auto;
+  /* height: auto; */
+  height: calc(100vw*(115/460));
   position: relative;
   margin: 15px;
 }
